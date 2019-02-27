@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package edu.csbsju.cs;
    // the classes in this file are part of this package
 
@@ -31,9 +30,9 @@ public class Employee
       return hireDay;
    }
 
-   public void raiseSalary(double byPercent)
+   public void raiseSalary(double byDecimal)
    {
-      double raise = salary * byPercent / 100;
+      double raise = salary * byDecimal / 100;
       salary += raise;
    }
 
@@ -41,16 +40,3 @@ public class Employee
    private double salary;
    private Date hireDay;
 }
-=======
-package edu.csbsju.cs;
-   // the classes in this file are part of this package
-
-import java.util.*;
-   // import statements come after the package statement
-
-public class Employee
-{
-
-   private Date hireDay;
-}
->>>>>>> 2aac2bc89c0086ac2dfd4406957a4d7c681eee73
